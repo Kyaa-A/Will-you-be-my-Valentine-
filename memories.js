@@ -19,4 +19,4 @@ function moveSlide(direction) {
 }
 
 // Optional: Auto-slide every 5 seconds
-// setInterval(() => moveSlide(1), 10000);
+// setInterval(() => moveSlide(1), 10000);g
