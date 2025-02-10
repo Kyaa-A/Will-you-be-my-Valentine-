@@ -1,15 +1,22 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
+    position: relative;
 }
 
 .container {
     text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header_text {
@@ -18,7 +25,28 @@ body {
 }
 
 .gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.button_container {
+    position: absolute;
+    bottom: 20px; /* Adjust this value to control the distance from the bottom */
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b71c1c;
 }

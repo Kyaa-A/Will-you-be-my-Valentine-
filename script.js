@@ -56,14 +56,14 @@
 const messages = [
     "Are you sure?",
     "Really sure??",
-    "Are you positive?",
-    "Pookie please...",
-    "Just think about it!",
-    "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Please?",
+    "pweeeasee",
+    "aaaaaaaaaaaaaaaaa",
+    "bawal mag no",
+    "bawal lagi gahig olo",
+    "Isa",
+    "Duha",
+    "Tuloooo"
 ];
 
 let messageIndex = 0;
@@ -79,4 +79,9 @@ function handleNoClick() {
 
 function handleYesClick() {
     window.location.href = "yes_page.html";
+}
+
+
+function clickMe(){
+    window.location.href = "memories.html";
 }
